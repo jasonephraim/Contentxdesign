@@ -24846,7 +24846,7 @@ body:not(.device-touch) .clients-grid .grid-item a {
 }
 
 .testimonials-grid .grid-item::before, .testimonials-grid .grid-item::after {
-  content: '';
+  content: "";
   position: absolute;
   height: 100%;
   top: 0;
@@ -24936,7 +24936,7 @@ body:not(.device-touch) .clients-grid .grid-item a {
   width: 64px;
   height: 64px;
   text-align: center;
-  background-color: #EEE;
+  background-color: #eee;
   border-radius: 50%;
   line-height: 64px;
   font-size: 28px;
@@ -24955,14 +24955,6 @@ body:not(.device-touch) .clients-grid .grid-item a {
   font-style: italic;
 }
 
-.testi-content p::before {
-  content: ' " ';
-}
-
-.testi-content p::after {
-  content: ' " ';
-}
-
 .testi-meta {
   margin-top: 10px;
   font-size: 15px;
@@ -24971,7 +24963,7 @@ body:not(.device-touch) .clients-grid .grid-item a {
 }
 
 .testi-meta::before {
-  content: '\2013';
+  content: "\2013";
 }
 
 .testi-meta span {
@@ -24986,11 +24978,11 @@ body:not(.device-touch) .clients-grid .grid-item a {
 /* Twitter - Small Scroller
 -----------------------------------------------------------------*/
 .testimonial.twitter-scroll .testi-content p::before, .testimonial.twitter-scroll .testi-content p::after {
-  content: '';
+  content: "";
 }
 
 .testimonial.twitter-scroll .testi-meta::before {
-  content: '';
+  content: "";
 }
 
 .testimonial.twitter-scroll .testi-meta span {
