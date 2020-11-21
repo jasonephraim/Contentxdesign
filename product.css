@@ -143,6 +143,15 @@ a {
   font-size: 1.2em;
 }
 
+.product-list li i {
+  float: left;
+}
+
+.product-list li span {
+  display: block;
+  overflow: hidden;
+}
+
 .contact-list {
   padding-left: 0;
 }
@@ -153,6 +162,15 @@ a {
   margin-bottom: 1.5rem;
   margin-top: 1.75rem;
   font-size: 1.2em;
+}
+
+.contact-list li i {
+  float: left;
+}
+
+.contact-list li span {
+  display: block;
+  overflow: hidden;
 }
 
 i {
