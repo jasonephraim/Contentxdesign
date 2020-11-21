@@ -21,15 +21,21 @@
   <body>
 
     <nav class="site-header sticky-top py-1">
-      <div class="container d-flex flex-column flex-md-row">
-        <a class="py-2" href="#">
+      <!--main nav-->
+      <div class="container">
+        <div class="row px-5 justify-content-between">
+        <a class="py-2 mx-auto mx-md-0" href="#">
           <img src="assets/brand/CXD_logo_full_white.png">
+          <div class="d-md-flex">
         </a>
-        <a class="nav-link py-2 d-none d-md-inline-block" href="#ServicesList">Services</a>
-        <a class="nav-link py-2 d-none d-md-inline-block" href="#About">About</a>
-        <a class="nav-link py-2 d-none d-md-inline-block" href="#Contact">Contact</a>
+        <a class="nav-link py-2 align-content-end d-none d-sm-block" href="#ServicesList">Services</a>
+        <a class="nav-link py-2 align-content-end d-none d-sm-block" href="#About">About</a>
+        <a class="nav-link py-2 align-content-end d-none d-sm-block" href="#Contact">Contact</a>
         <!--<a class="nav-link py-2 d-none d-md-inline-block" href="/blog">Blog</a>-->
+        </div>
       </div>
+    </div>
+      <!--end main nav-->
     </nav>
 
     <div class="bg-dark position-relative text-white overflow-hidden p-3 p-md-5 text-center" id="hero">
@@ -72,7 +78,7 @@
     <!--start card 1 -->
 
     <div class="d-md-flex flex-md-equal w-100" id="ServicesList">
-      <div class="pt-3 px-3 pt-md-3 px-md-5 overflow-hidden border-top border-bottom border-right">
+      <div class="pt-3 px-5 pt-md-3 px-md-5 overflow-hidden border-top border-bottom border-right">
         <div class="row justify-content-end"> 
         <div class="my-5 py-5 col-md-8">
           <h2 class="display-5">Change Communications</h2>
@@ -116,7 +122,7 @@
       </div>
       <div class="pt-3 px-5 pt-md-3 px-md-5 overflow-hidden border-bottom order-1 order-sm-2">
         <div class="row justify-content-start"> 
-        <div class="my-5 py-5 col-md-8">
+        <div class="my-5 mx-4 py-5 col-md-8">
           <h2 class="display-5">UX Content Strategy</h2>
           <p>If customer experience matters to you, then you need to design content with the customer in mind.</p>
           <p  class="text-muted"><em>We apply user-centered research and design practices to serve up content in a way that informs, guides, and motivates users.</em></p>
@@ -131,7 +137,7 @@
     <!--start card 3 -->
 
     <div class="d-md-flex flex-md-equal w-100">
-      <div class="pt-3 px-3 pt-md-3 px-md-5 overflow-hidden border-bottom border-right">
+      <div class="pt-3 px-5 pt-md-3 px-md-5 overflow-hidden border-bottom border-right">
         <div class="row justify-content-end"> 
         <div class="my-5 py-5 col-md-8">
           <h2 class="display-5">Content Marketing</h2>
@@ -160,7 +166,7 @@
     <!--start about-->
 
     <div class="d-md-flex flex-md-equal" id="About">
-      <div class="bg-dark text-white row mx-auto pt-3 px-3 pt-md-5 pb-md-5 px-md-5 h-100 overflow-hidden border-bottom">
+      <div class="bg-dark text-white row mx-auto pt-3 pb-5 px-3 pt-md-5 pb-md-5 px-md-5 h-100 overflow-hidden border-bottom">
         <div class="col-md-3 offset-md-2 pt-3 mb-5 mb-sm-1 text-center bg-white border" id="picture">
           <img src="assets/img/1.jpg" style="max-width: 100%;">
           <img class="pt-3" src="assets/img/signature.png" style="max-width: 100%;">
@@ -169,7 +175,7 @@
         <div class="pt-5 pt-sm-3 col-md-7 px-5 my-auto">
           <h2 class="display-5 text-white">About Jennifer Roth</h2>
           <p>Jennifer Roth is a senior marketing communications professional with nearly 15 years of experience developing innovative strategies for informing, guiding, and motivating people. Her unique blend of creativity and analytics has created value for a wide variety of organizations, from mid-sized local businesses to Fortune 500 corporations.</p>
-          <p>Jennifer has a history of turning less-than-ideal circumstances into opportunities. During the oil market downturn of 2015–17, she transformed the media relations program a multinational oilfield services company by integrating content marketing, digital marketing, social media, account-based marketing, and other leading practices. Next, she led the change communications strategy for ExxonMobil transition to cloud computing, applying content strategy alongside traditional change management tactics to guide “old-school” IT professionals up a learning curve that was admittedly steep at times.</p>
+          <p>Jennifer has a history of turning challenges into opportunities. During the oil market downturn of 2015–2017, she transformed the media relations program of a multinational oilfield services company. Next, she led the change communications strategy for ExxonMobil’s transition to cloud computing. In 2020, as COVID-19 drove disruption on an unprecedented global scale, Jennifer decided to lean into the change. She founded Content x Design, a firm whose name reflects her analytical, data-based approach to creative work.</p>
         </div>
         
       </div>
@@ -182,9 +188,9 @@
     
 
     <div class="d-md-flex flex-md-equal w-100" id="Contact">
-      <div class="pt-3 px-3 pt-md-3 px-md-5 overflow-hidden border-bottom border-right">
+      <div class="pt-3 px-5 pt-md-4 px-md-5 overflow-hidden border-bottom border-right">
         <div class="row justify-content-end"> 
-        <div class="my-5 py-5 col-md-8">
+        <div class="mt-5 pt-5 col-md-8">
           <h2 class="display-5">Let's get down to business</h2>
           <p>Are you ready to unleash the power of smart, strategic content to solve your business challenges?</p>
           <ul class="contact-list">
@@ -196,7 +202,7 @@
         </div>
       </div>
       </div>
-      <div class="bg-grey pt-3 px-3 py-3 px-md-5 overflow-hidden border-bottom position-relative" id="product3">
+      <div class="bg-grey pt-5 pt-md-4 px-5 py-3 px-md-5 overflow-hidden border-bottom position-relative" id="product3">
         <div class="row h-100">
         <div class="my-auto col-md-8 col-12">
         <form class="needs-validation" novalidate>
