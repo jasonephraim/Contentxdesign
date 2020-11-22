@@ -205,11 +205,11 @@
       <div class="bg-grey pt-5 pt-md-4 px-5 py-3 px-md-5 overflow-hidden border-bottom position-relative" id="product3">
         <div class="row h-100">
         <div class="my-auto col-md-8 col-12">
-        <form class="needs-validation">
+        <form class="needs-validation" action="https://formspree.io/f/xoqploog" method="POST">
           <div class="row">
             <div class="col-md-12 mb-3">
               <label for="yourName">Your name *</label>
-              <input type="text" class="form-control" id="yourName" placeholder="" value="" required>
+              <input type="text" class="form-control" id="yourName" placeholder="" value="" name="name" required>
               <div class="invalid-feedback">
                 Valid name is required.
               </div>
@@ -220,7 +220,7 @@
           <div class="row">
             <div class="col-md-12 mb-3">
               <label for="companyName">Your company name *</label>
-              <input type="text" class="form-control" id="companyName" placeholder="" value="" required>
+              <input type="text" class="form-control" id="companyName" placeholder="" value="" name="company" required>
               <div class="invalid-feedback">
                 Valid name is required.
               </div>
@@ -232,7 +232,7 @@
 
           <div class="mb-3">
             <label for="email">Email *</label>
-            <input type="email" class="form-control" id="email" placeholder="you@example.com" required>
+            <input type="email" class="form-control" id="email" placeholder="you@example.com" name="email" required>
             <div class="invalid-feedback">
               Please enter a valid email address.
             </div>
@@ -240,7 +240,7 @@
 
           <div class="mb-3">
             <label for="phone">Phone number <span class="text-muted">(Optional)</span></label>
-            <input type="phone" class="form-control" id="phone" placeholder="(123) 456-7890">
+            <input type="phone" class="form-control" id="phone" name="phone" placeholder="(123) 456-7890">
             <div class="invalid-feedback">
               Please enter a valid phone number.
             </div>
@@ -248,7 +248,7 @@
 
           <div class="mb-3">
             <label for="contactMethod">Preferred contact method *</label>
-            <select class="custom-select d-block w-100" id="contact" required>
+            <select class="custom-select d-block w-100" id="contact" name="contact_method" required>
               <option value="">Choose...</option>
               <option>Email</option>
               <option>Phone</option>
@@ -262,7 +262,7 @@
 
           <div class="mb-3">
             <label for="subject">Email subject *</label>
-            <input type="text" class="form-control" id="subject" placeholder="RE: Nice to meet you" required>
+            <input type="text" class="form-control" id="subject" placeholder="RE: Nice to meet you" name="subject" required>
             <div class="invalid-feedback">
               Please enter a subject for your email.
             </div>
@@ -270,7 +270,7 @@
 
           <div class="mb-3">
             <label for="body">Email body</label>
-            <textarea class="form-control" id="body" rows="3"></textarea>
+            <textarea class="form-control" id="body" name="message" rows="3"></textarea>
             <div class="invalid-feedback">
               Please enter a message for your email.
             </div>
