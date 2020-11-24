@@ -37,18 +37,24 @@
 
   <body>
 
-    <nav class="site-header sticky-top py-1">
+    <nav class="site-header sticky-top py-1 navbar-expand-md navbar-dark bg-dark">
       <!--main nav-->
       <div class="container">
         <div class="row px-5 justify-content-between">
         <a class="py-2 mx-auto mx-md-0" href="#">
           <img src="assets/brand/CXD_logo_full_white.png">
-          <div class="d-md-flex">
         </a>
-        <a class="nav-link py-2 align-content-end d-none d-sm-block" href="#ServicesList">Services</a>
-        <a class="nav-link py-2 align-content-end d-none d-sm-block" href="#About">About</a>
-        <a class="nav-link py-2 align-content-end d-none d-sm-block" href="#Contact">Contact</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse justify-content-end navbar-collapse" id="navbarSupportedContent">
+        <div class="d-flex align-content-end">
+        <a class="nav-link py-2" href="#ServicesList">Services</a>
+        <a class="nav-link py-2" href="#About">About</a>
+        <a class="nav-link py-2" href="#Contact">Contact</a>
         <!--<a class="nav-link py-2 d-none d-md-inline-block" href="/blog">Blog</a>-->
+        </div>
+        </div>
         </div>
       </div>
     </div>
